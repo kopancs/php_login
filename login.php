@@ -20,6 +20,8 @@
         <?php
         if($res->num_rows==1){
             echo "Sikeres bejelentkezés :)";
+            echo "<br>";
+            echo "Üdvözöljük, kedves $username!";
         }
         ?>
     </body>
